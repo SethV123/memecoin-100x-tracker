@@ -8,7 +8,7 @@ import time
 
 class MemecoinTracker:
     def __init__(self):
-        self.api_url = "https://api.dexscreener.io/latest/dex/pairs"
+        self.api_url = "https://api.dexscreener.com/token-profiles/latest/v1"
         self.historical_data = pd.DataFrame()
         self.model = RandomForestClassifier()
 
